@@ -31,7 +31,7 @@ class Solution:
         cuts.insert(0, 0)
         cuts.append(n)
         cuts.sort()
-        # MEMOIZATION
+        # MEMOIZATION chnaged here
         # dp = [[-1] * (c+1) for _ in range(c+1)]
         # def findMinCost(i, j, cuts, dp):
         #     if i>j:
